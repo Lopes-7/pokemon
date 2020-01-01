@@ -1,0 +1,30 @@
+[
+    {
+    "id": 1,
+    "question": "Which pokémon evolves into Charmeleon?",
+    "options": ["Charmander", "Charizard", "Bulbasaur", "Pikachu", "Squirtle"],
+    "answer": "Charmander",
+    "difficulty": 1
+    },
+    {
+    "id": 2,
+    "question": "Which pokémon evolves into Grovyle?",
+    "options": ["Turtwig", "Treecko", "Bulbasaur", "Snivy", "Chikorita"],
+    "answer": "Treecko",
+    "difficulty": 1
+    },
+    {
+    "id": 3,
+    "question": "What is the color of a male Magikarp's mustache?",
+    "options": ["Blue", "Red", "Green", "Yellow", "White"],
+    "answer": "Yellow",
+    "difficulty": 2
+    },
+    {
+    "id": 4,
+    "question": "What is the Johto PokéDex number of Gyarados?",
+    "options": ["#130", "#77", "#129", "#175", "#222"],
+    "answer": "#77",
+    "difficulty": 3
+    }
+]
