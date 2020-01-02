@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import '../styles/header.css';
 
 /**
  * CODE
@@ -14,21 +14,19 @@ import {Link} from 'react-router-dom';
  */
 function header () {
     return (
-        <div>
-            <ul>
-                <li>
-                    <button><Link to="/">Home</Link></button>
-                </li>
-                <li>
-                    <button><Link to="/ask-me">Ask Slowking!</Link></button>
-                </li>
-                <li>
-                    <button><Link to="/questions">Test your knowledge!</Link></button>
-                </li>
-                <li>
-                    <button><Link to="/whos-that-pokemon">Who's that Pokémon?</Link></button>
-                </li>
-            </ul>
+        <div className="header">
+                <div className="header-item">
+                    <Link className="header-link" to="/">Home</Link>
+                </div>
+                <div className="header-item">
+                    <Link className="header-link" to="/ask-me">Ask Slowking!</Link>
+                </div>
+                <div className="header-item">
+                    <Link className="header-link" to="/questions">Test your knowledge!</Link>
+                </div>
+                <div className="header-item">
+                    <Link className="header-link" to="/whos-that-pokemon">Who's that Pokémon?</Link>
+                </div>
         </div>
     );
 }

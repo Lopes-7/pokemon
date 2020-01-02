@@ -1,0 +1,26 @@
+.header {
+    background-color: #A9331B;
+    display: flex;
+    height: 75px;
+    width: auto;
+}
+
+.header-item {
+    border-color: rgb(240, 240, 240);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.header-link {
+    color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: none;
+}
