@@ -1,30 +1,128 @@
 [
     {
-    "id": 1,
-    "question": "Which pokémon evolves into Charmeleon?",
-    "options": ["Charmander", "Charizard", "Bulbasaur", "Pikachu", "Squirtle"],
-    "answer": "Charmander",
-    "difficulty": 1
+        "id": 1,
+        "question": "Which pokémon evolves into Charmeleon?",
+        "options": ["Charmander", "Charizard", "Bulbasaur", "Pikachu", "Squirtle"],
+        "answer": "Charmander",
+        "difficulty": 1
     },
     {
-    "id": 2,
-    "question": "Which pokémon evolves into Grovyle?",
-    "options": ["Turtwig", "Treecko", "Bulbasaur", "Snivy", "Chikorita"],
-    "answer": "Treecko",
-    "difficulty": 1
+        "id": 2,
+        "question": "Which pokémon evolves into Grovyle?",
+        "options": ["Turtwig", "Treecko", "Bulbasaur", "Snivy", "Chikorita"],
+        "answer": "Treecko",
+        "difficulty": 1
     },
     {
-    "id": 3,
-    "question": "What is the color of a male Magikarp's mustache?",
-    "options": ["Blue", "Red", "Green", "Yellow", "White"],
-    "answer": "Yellow",
-    "difficulty": 2
+        "id": 3,
+        "question": "What is the color of a male Magikarp's mustache?",
+        "options": ["Blue", "Red", "Green", "Yellow", "White"],
+        "answer": "Yellow",
+        "difficulty": 3
     },
     {
-    "id": 4,
-    "question": "What is the Johto PokéDex number of Gyarados?",
-    "options": ["#130", "#77", "#129", "#175", "#222"],
-    "answer": "#77",
-    "difficulty": 3
+        "id": 4,
+        "question": "What is the Johto PokéDex number of Gyarados?",
+        "options": ["#130", "#77", "#129", "#175", "#222"],
+        "answer": "#77",
+        "difficulty": 3
+    },
+    {
+        "id": 5,
+        "question": "Which move Electabuzz cannot know?",
+        "options": ["Thunder Punch", "Meditate", "Ice Punch", "Thunder Fang", "Thunder Shock"],
+        "answer": "Thunder Fang",
+        "difficulty": 2
+    },
+    {
+        "id": 6,
+        "question": "What is the base Special Attack points of Gengar?",
+        "options": ["135", "130", "125", "120", "110"],
+        "answer": "130",
+        "difficulty": 3
+    },
+    {
+        "id": 7,
+        "question": "What is the natural enemy of Zangoose?",
+        "options": ["Zigzagoon", "Arbok", "Ekans", "Seviper", "Serperior"],
+        "answer": "Seviper",
+        "difficulty": 2
+    },
+    {
+        "id": 8,
+        "question": "Which Pokémon is not Grass type?",
+        "options": ["Parasect", "Skiploom", "Lileep", "Ferroseed", "Sudowoodo"],
+        "answer": "Sudowoodo",
+        "difficulty": 2
+    },
+    {
+        "id": 9,
+        "question": "Which Pokémon is not Dragon type?",
+        "options": ["Kingdra", "Vibrava", "Altaria", "Fraxure", "Charizard"],
+        "answer": "Charizard",
+        "difficulty": 2
+    },
+    {
+        "id": 10,
+        "question": "Which Pokémon is not Dragon type?",
+        "options": ["Mega Gyarados", "Mega Ampharos", "Mega Altaria", "Mega Charizard X", "Mega Sceptile"],
+        "answer": "Mega Gyarados",
+        "difficulty": 2
+    },
+    {
+        "id": 11,
+        "question": "Which Pokémon has the highest speed base?",
+        "options": ["Scyther", "Rapidash", "Dugtrio", "Charizard", "Gengar"],
+        "answer": "Dugtrio",
+        "difficulty": 2
+    },
+    {
+        "id": 12,
+        "question": "What is the specialty of Johto's fifth Gym Leader? The leader is Chuck",
+        "options": ["Bug Type Pokémon", "Fighting Type Pokémon", "Normal Type Pokémon", "Dragon Type Pokémon", "Fire Type Pokémon"],
+        "answer": "Fighting Type Pokémon",
+        "difficulty": 3
+    },
+    {
+        "id": 13,
+        "question": "Deerling evolves into",
+        "options": ["Stantler", "Virizion", "Sawsbuck", "Girafarig", "Absol"],
+        "answer": "Sawsbuck",
+        "difficulty": 1
+    },
+    {
+        "id": 14,
+        "question": "Which Pokémon is dual typed?",
+        "options": ["Gigalith", "Tangrowth", "Conkeldurr", "Wigglytuff", "Alomomola"],
+        "answer": "Wigglytuff",
+        "difficulty": 2
+    },
+    {
+        "id": 15,
+        "question": "Which Pokémon is not from Unova",
+        "options": ["Woobat", "Munna", "Burmy", "Tympole", "Leavanny"],
+        "answer": "Burmy",
+        "difficulty": 3
+    },
+    {
+        "id": 16,
+        "question": "Which Pokémon is not from Sinnoh",
+        "options": ["Mothim", "Bibarel", "Kricketot", "Shieldon", "Throh"],
+        "answer": "Throh",
+        "difficulty": 3
+    },
+    {
+        "id": 17,
+        "question": "Which Pokémon does not evolve when traded?",
+        "options": ["Haunter", "Machoke", "Electabuzz", "Magneton", "Graveler"],
+        "answer": "Magneton",
+        "difficulty": 2
+    },
+    {
+        "id": 18,
+        "question": "Which Pokémon is exclusively fire type?",
+        "options": ["Combusken", "Monferno", "Quilava", "Pignite", "Litleo"],
+        "answer": "Quilava",
+        "difficulty": 2
     }
 ]
