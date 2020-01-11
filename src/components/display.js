@@ -2,6 +2,7 @@
  * IMPORTS
  */
 import React from 'react';
+import {useEffect} from 'react';
 import {useState} from 'react';
 import Question from './question';
 import questions from '../data/questions.json';
@@ -24,14 +25,24 @@ function display () {
     // selected option state
     const [selectedOption, setSelectedOption] = useState('');
 
-    // I am a change question function
-    async function changeQuestion() {
-        console.log(index);
-        console.log(questions.length);
-        setIndex(index + 1);
-        setSelectedQuestion(questions[index]);
+    // update question and option when index is updated
+    useEffect(() => {
+        // clear selected option
         setSelectedOption('');
-        console.log(index);
+
+        // index is valid: update selected question
+        if (index < questions.length) {
+            setSelectedQuestion(questions[index]);
+        }
+        // reset index value
+        else {
+            setIndex(0);
+        }
+    },[index]);
+
+    // I am a change question function
+    function changeQuestion() {
+        setIndex(index + 1);
     }
 
     // I am a confirm answer function
